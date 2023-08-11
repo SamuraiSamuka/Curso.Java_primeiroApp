@@ -2,12 +2,28 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Olá e bem-vindo!");
+        System.out.println("Esse é o Screen Match!");
+        System.out.println("Filme: Top Gun: Maverick");
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        int anoDeLancamento = 2022;
+        boolean incluidoNoPlano = true;
+        double notaDoFilme = 8.1;
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
 
-        System.out.println("Concluí a aula 01 e agora estou mergulhando em Java!");
+        double media = (9.8 + 6.3 + 8.0) / 3;
+        System.out.println(media);
+
+        String sinopse = "Filme de aventura com Ton Cruise";
+        String sinopse2 = """
+                Filme Top Gun
+                Filme com Ton Cruise
+                Muito bom
+                """;
+        System.out.println(sinopse2);
+
+        int classificacao = (int) (media/2);
+        System.out.println(classificacao);
+        int temp = (int) ConversorTemperatura.celsiuToFahrenheit(32);
+        System.out.println(temp);
     }
 }
