@@ -6,8 +6,6 @@ public class Main {
         System.out.println("Filme: Top Gun: Maverick");
 
         int anoDeLancamento = 2022;
-        boolean incluidoNoPlano = true;
-        double notaDoFilme = 8.1;
         System.out.println("Ano de lançamento: " + anoDeLancamento);
 
         double media = (9.8 + 6.3 + 8.0) / 3;
@@ -19,11 +17,9 @@ public class Main {
                 Filme com Ton Cruise
                 Muito bom
                 """;
-        System.out.println(sinopse2);
 
         int classificacao = (int) (media/2);
         System.out.println(classificacao);
-        int temp = (int) ConversorTemperatura.celsiuToFahrenheit(32);
-        System.out.println(temp);
+
     }
 }
